@@ -76,7 +76,7 @@ hr
 
 #massHR
 {
-    margin-top: 450px;
+    margin-top: 40px;
 }
 
 #navigationElements 
@@ -219,6 +219,7 @@ h2{
     justify-content: center;
     padding-top: 50px;
     margin: auto;
+    /* margin-top: none; */
 }
 
 #skills
@@ -302,6 +303,11 @@ footer
 }
 
 #contact
+{
+    list-style-type: none;
+}
+
+#contact1
 {
     list-style-type: none;
 }
@@ -395,13 +401,18 @@ footer
     {
         display: block;
         justify-content: center;
-        padding-top: 50px;
+        padding-top: none;
         margin: auto;
         width: 50%;
     }
 
 
     #contact{
+        display: block; 
+        margin-top: 100px;
+    }
+
+    #contact1{
         display: block; 
         margin-top: 1000px;
     }
@@ -417,6 +428,11 @@ footer
     }
 
     #contact
+    {
+        padding-bottom: 300px;
+    }
+
+    #contact1
     {
         padding-top: 700px;
     }
@@ -512,6 +528,7 @@ footer
     #lists
     {
         margin-left: 30px;
+        margin-bottom: 500px;
     }
     #skills
     {
