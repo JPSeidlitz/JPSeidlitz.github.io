@@ -76,7 +76,7 @@ hr
 
 #massHR
 {
-    margin-top: 40px;
+    margin-top: 450px;
 }
 
 #navigationElements 
@@ -538,6 +538,11 @@ footer
     #Awards
     {
         margin-left: none;
+    }
+
+    #massHR
+    {
+        margin-top: 40px;
     }
 }
 
