@@ -66,12 +66,12 @@ hr
 #hrt
 {
     margin-bottom: 0px;
-    visibility: hidden;
+    /* visibility: hidden; */
 }
 
 #nolanHR
 {
-    margin-top: 400px;
+    margin-top: 200px;
 }
 
 #massHR
@@ -163,7 +163,7 @@ h2{
 #tit1
 {
     padding-right: 150px;
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
 #tit1s
@@ -179,6 +179,7 @@ h2{
 #text1
 {
     margin-right: 150px;
+    text-indent: 4em;
 }
 
 
@@ -196,14 +197,51 @@ h2{
 #tit2
 {
     padding-right: 150px;
-    margin-top: 100px;
+    margin-top: 200px;
+}
+
+#tit3
+{
+    /* padding-right: 150px; */
+    margin-top: 200px;
 }
 
 #text2
 {
     margin-left: 150px;
+    text-indent: 4em;
 }
 
+#lists
+{
+    /* padding-top: 400px; */
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    margin: auto;
+}
+
+#skills
+{
+    width:600px;
+    display:block;
+    background-color: transparent;
+    border: 1px solid transparent;
+    margin-right: 60px;
+    margin-bottom: 1px;
+    float:left;
+}
+
+#Awards
+{
+    width:600px;
+    display:block;
+    background-color: transparent;
+    border: 1px solid transparent;
+    /* margin-right: 10px; */
+    margin-bottom: 1px;
+    float:left;
+}
 
 
 #nolan
@@ -333,6 +371,11 @@ footer
         margin-top: 100px;
     }
 
+    #tit3
+    {
+        padding-right: 0px;
+        margin-top: 100px;
+    }
     #text2
     {
         margin-left: 20px;
@@ -348,6 +391,15 @@ footer
         /* margin-left: 25%; */
     }
 
+    #lists
+    {
+        display: block;
+        justify-content: center;
+        padding-top: 50px;
+        margin: auto;
+        width: 50%;
+    }
+
 
     #contact{
         display: block; 
@@ -361,7 +413,12 @@ footer
 
     #nolanHR
     {
-        margin-top: 50px;
+        margin-top: 400px;
+    }
+
+    #contact
+    {
+        padding-top: 700px;
     }
 }
 
@@ -452,7 +509,19 @@ footer
         padding-left: 10px;
     }
 
+    #lists
+    {
+        margin-left: 30px;
+    }
+    #skills
+    {
+        margin-left: none;
+    }
     
+    #Awards
+    {
+        margin-left: none;
+    }
 }
 
 @media screen and (max-width: 510px) {
